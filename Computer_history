@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--Jodhveer Atwal-->
+  <html>
+    <head>
+      <h1>Computer History</h1>
+      <p>
+      <hr>
+      </p>
+        <h2>1970's</h2>
+      <title>Popular Tourist Attractions</title>
+      <p>
+      <hr>
+      </p>
+    </head>
+<body>
+  <h3>• Intel Corporation is founded by Robert Noyce and Gordon Moore.</h3>
+  <h3>• Advanced Micro Devices (AMD) is founded on May 1, 1969.</h3>
+  <h3>• Intel with the help of Ted Hoff introduces the first                   microprocessor, the Intel 4004 on November 15, 1971. The 4004           had 2,300 transistors, performed 60,000 operations per second           (OPS), addressed 640 bytes of memory, and cost $200.00.</h3>
+  <h3>• intel's improved microprocessor chip is introduced April 1,             1974, the 8080 becomes a standard in the computer industry.     
+  <h3>• The Motorola 68000, a 16/32-bit processor is released and is           later chosen as the processor for the Apple Macintosh and Amiga         computers.</h3>
+</body> 
+       <p>
+      <hr>
+      </p>
+    </head>
+    <p>
+  <h2>1980's</h2>
+  <p>
+  <hr>
+  </p>
+  <h3>• The Intel 80286 is introduced February 1, 1982.</h3>
+  <h3>• Intel introduces the first 80386 in October 1985.</h3>
+  <h3>• The SPARC processor is first introduced by Sun.</h3>
+  <h3>• Intel 80386SX is introduced.</h3>   
+   <p>
+      <hr>
+      </p>
+    </head>
+    <p>
+  <h2>1990's</h2>
+  <p>
+  <hr>
+  </p>
+  <h3>• AMD introduces the AM386 microprocessor family in March.</h3>
+  <h3>• Intel introduces the Intel 486SX chip in April in efforts to help bring a lower-cost processor to the PC market selling for $258.00. </h3>
+  <h3>• 	Intel releases the Pentium processor on March 22 1993. The processor is a 60 MHz processor, incorporates 3.1 million transistors and sells for $878.00</h3>
+  <h3>• AMD introduced the Athlon processor series on June 23, 1999. The Athlon would be produced for the next 6 years in speeds ranging from 500 MHz up to 2.33 GHz.</h3>   
+  <h3>• The Intel Pentium III 533B and 600B MHz is released on September 27, 1999.</h3>
+   <p>
+      <hr>
+      </p>
+    </head>
+    <p>
+  <h2>2000's</h2>
+  <p>
+  <hr>
+  </p>
+  <h3>• On January 5, AMD releases the 800 MHz Athlon processor.</h3>
+  <h3>• On January 3 Intel releases the 1.3 GHz Pentium 4 processor.</h3>
+  <h3>• Intel releases the first Core i5 Desktop processor with 4 cores, the i5-750 (8M Cache, 2.67 GHz, 1333 MHz FSB), on September 8, 2009</h3>
+  <h3>• Intel releases the first Core i7 Desktop processors in November 2008: the i7-920 (8M Cache, 2.67 GHz, 1066 MHz FSB), the i7-940 (8M Cache, 2.93 GHz, 1066 MHz FSB), and the i7-965 Extreme Edition (8M Cache, 3.2 GHz, 1066 MHz FSB).</h3>   
+  <h3>• AMD releases the first Athlon II X3 (triple core) processors (512 KB L2 Cache, 2.2 to 3.4 GHz, 1066 MHZ or 1333 MHz FSB) in October 2009.</h3>
+   <p>
+      <hr>
+      </p>
+    </head>
+    <p>
+  <h2>2010's</h2>
+  <p>
+  <hr>
+  </p>
+  <h3>• Intel releases the first Core i5 Desktop processor over 3.0 GHz, the i5-650 (4M Cache, 3.20 GHz, 1333 MHz FSB) in January 2010</h3>
+  <h3>• Intel releases the first Core i3 Desktop processors, the i3-530 (4M Cache, 2.93 GHz, 1333 MHz FSB) and the i3-540 (4M Cache, 3.06 GHz, 1333 MHz FS), on January 7, 2010</h3>
+  <h3>• Intel releases seven new Core i5 processors with 4 cores, the i5-2xxx series (6M Cache, 2.3 GHz to 3.3 GHz) in January 2011</h3>
+  <h3>• AMD releases the first desktop processors in their A10 line, the A10-5700 (4M L2 Cache, 3.4 GHz or 4.0 GHz in Turbo mode, 1866 MHz FSB) and the A10-5800K (4M L2 Cache, 3.8 GHz or 4.2 GHz in Turbo mode, 1866 MHz FSB) on October 1, 2012.</h3>   
+  <h3>• Intel releases the i9 processors that clock up to 4.5 Ghz and have 14 cores and 20 Threads and costs $2000.</h3>
+  </body>
+<style>
+  html {border-style: double;}
+  html {border-color: white;}
+  html {border-width: 10px;}
+   h1 {
+    color: white;
+  }
+  h2 {
+    color: white;
+  }
+  h3 {
+    color: white;
+  }
+   body {
+    background-color: Black;
+  }
+  h3 {
+    font-family: verdana;
+    font-size: 15px;
+</style>
+  </html>
+  
