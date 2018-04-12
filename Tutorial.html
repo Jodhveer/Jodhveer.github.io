@@ -1,123 +1,58 @@
 <!DOCTYPE html>
 <html>
-
-  <head>
-    <style>
-      * {
-        box-sizing: border-box;
-        font-family: sans-serif;
-      }
-
-      .header,
-      .footer {
-        background-color: maroon;
-        color: white;
-        padding: 15px;
-      }
-
-      .column {
-        float: left;
-        padding: 15px;
-      }
-
-      .column img {
-        float: right;
-      }
-
-      .clearfix::after {
-        content: "";
-        clear: both;
-        display: table;
-      }
-
-      .menu {
-        width: 20%
-      }
-
-      .content {
-        width: 70%;
-        float: right;
-      }
-      .more{
-      float: right;
-      }
-      .menu ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
-
-      .menu ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
-
-      .menu li {
-        padding: 8px;
-        margin-bottom: 8px;
-        background-color: teal;
-        color: #ffffff;
-      }
-
-      .menu li:hover {
-        background-color: #0099cc;
-      }
-
-    </style>
-
-
-  </head>
-
-  <body>
-
-    <div class="header">
-      <h1>How To...</h1>
-      </div>
-      <div class="clearfix">
-        <div class="column menu">
-        </div>
-        
-        <div class="column content">
-          <img src="">                                                                  
-          <h1>
-            Welcome
-          </h1>
-          <p>
-          </p>
-          <p>
-
-          </p>
-          </div>
-          <div class="column content more">
-          
-          <img src=""width="300" height="200"> 
-                  
-          <h1>Second Content</h1>
-          <p>
-            Original Content.
-          </p>
-          <p>
-           More Content
-          </p>
-          </div>
-          
-          <div class="column content more">
-          
-          <img src="width="300" height="200"> 
-                  
-          <h1>Third Content</h1>
-          <p>
-            Original Content.
-          </p>
-          <p>
-           More Content
-          </p>
-          </div>
-        </div>
-      <div class="footer">
-        <p>How To...</p>
-      </div>
-  </body>
-
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<div class="w3-container">
+  <h2>How To...</h2>
+  <p>In this slideshow you will learn how to _______ in a couple easy steps</p>
+</div>
+<div class="w3-content w3-display-container">
+<div class="w3-display-container mySlides">
+  <img src="" style="width:100%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+  </div>
+</div>
+<div class="w3-display-container mySlides">
+  <img src="image" style="width:100%">
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">    
+  </div>
+</div>
+<div class="w3-display-container mySlides">
+  <img src="image" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">    
+  </div>
+</div>
+<div class="w3-display-container mySlides">
+  <img src="image" style="width:100%">
+  <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">    
+  </div>
+</div>
+<div class="w3-display-container mySlides">
+  <img src="image" style="width:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">    
+  </div>
+</div>
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</body>
 </html>
